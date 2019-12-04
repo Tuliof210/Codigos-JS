@@ -28,5 +28,5 @@ ferrari.acelerar();
 uno.acelerar();
 ferrari.acelerar();
 
-console.log(uno.getVelocidadeAtual());
-console.log(ferrari.getVelocidadeAtual());
+console.log("Velocidade atual: ", uno.getVelocidadeAtual());
+console.log("Velocidade atual: ", ferrari.getVelocidadeAtual());

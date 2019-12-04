@@ -38,4 +38,6 @@ console.log("-----------------------------------");
 const dest = { a: 1 };
 const o1 = { b: 2 };
 const o2 = { c: 3, a: 4 };
-const obj = Object.assign(dest, o1, o2); //joga em dest os atributos de o1 e o2
+const obj = Object.assign(dest, o1, o2); //joga em dest os atributos de o1 e o2, concatenação
+console.log(dest, o1, o2);
+//atributos existentes sao smp sobrescritos pelo mais atual

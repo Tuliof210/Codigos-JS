@@ -11,3 +11,4 @@ const volvo = {
 console.log(ferrari.__proto__); //acessa o prototipo desse obj
 console.log(ferrari.__proto__ === Object.prototype);
 console.log(volvo.__proto__ === ferrari.__proto__);
+console.log(Object.prototype.__proto__);

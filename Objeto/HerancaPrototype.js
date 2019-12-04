@@ -26,5 +26,14 @@ const ferrari = {
 }
 
 const volvo = {
-    modelo: 'V40'
+    modelo: 'V40',
+    status() {
+        return `${this.modelo}: ${super.status()}`
+    }
 }
+
+Object.setPrototypeOf(ferrari, carro); //estabelce relação entre ferrari e carro
+Object.setPrototypeOf(volvo, carro); //estabelce relação entre volvo e carro
+
+console.log(volvo.status());
+console.log(ferrari.status());
