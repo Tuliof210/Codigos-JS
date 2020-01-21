@@ -1,5 +1,6 @@
 # PLAYGROUND JAVASCRIPT
 ## Plugins VS Code:
+- **Angular 8 Snippets:** TypeScript, HTML, Angular
 - **C#:** C# for Visual Studio
 - **C# Extensions:** C# IDE Extensions
 - **Code Runner:** Run C, C++, Java, JS...
@@ -16,3 +17,4 @@
 - **Python:** Linting, Debugging (multi-threaded, remote), Intellisense, code formatting...
 - **Rocketseat React Native:** React Native snippets created by Rocketseat
 - **Rocketseat ReactJS:** ReactJS snippets created by Rocketseat
+- **TypeScript Hero:** Additional toolings for typescript
